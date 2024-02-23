@@ -1,0 +1,48 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: var(--clr-light);
+}
+
+.header__logo {
+  font-family: "Be Vietnam Pro", sans-serif;
+  letter-spacing: -0.1px;
+  font-weight: 700;
+  position: relative;
+  top: 0;
+  color: var(--clr-light);
+  font-size: 21;
+}
+
+.nav__menu {
+  text-align: center;
+  height: 4rem;
+  border-radius: 10rem;
+  padding: 10px;
+  background-color: white;
+  list-style: none;
+  display: flex;
+  text-decoration: none;
+  color: var(-clr-dark);
+  margin-top: 5px;
+  scale: 0.9;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.header__link {
+  padding: 0px 20px;
+  text-decoration: none;
+}
+
+.header__btn {
+  text-align: center;
+  justify-self: center;
+  color: var(--clr-light);
+}
+
+body {
+  background-color: var(--clr-light-black);
+}
